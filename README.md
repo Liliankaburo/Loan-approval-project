@@ -97,5 +97,65 @@ The Loan approval dataset has 45,000 rows and 13 columns some of which are numer
 4. KNearestNeighbours
 5. GradientBoosting Model
 
+# CONCLUSION
+
+By leveraging machine learning models for loan approval classification, financial institutions can improve the speed, accuracy, and fairness of their loan decision-making process. The chosen model will provide a reliable and scalable way to assess loan applications, ultimately benefiting both the bank and its customers by enhancing decision-making efficiency and reducing risks associated with loan defaults.
+
+# RECOMMENDATIONS
+
+## Best model recommendations based on performance
+
+1. Random Forest performs the best in terms of accuracy (92.81%), precision (90%), recall (77%), and F1-Score (83%). This makes it the most balanced model for loan approval recommendations, providing a strong prediction for loan approvals while minimizing false positives.
+
+2. Gradient Boosting is a close second. Its accuracy (92.19%), precision (87%), and recall (76%) are also very strong, but it slightly lags behind Random Forest in recall for class 1.
+
+3. The Decision Tree model has a slightly lower precision (78%) and F1-score (78%) for class 1, meaning it might predict more false positives. However, it still performs well in recall (77%) for class 1.
+
+4. KNN shows the lowest recall (70%) for class 1, meaning it misses many loan approvals. It performs well in terms of precision, but the lower recall makes it less ideal for prioritizing loan approvals.
+
+##  Business Recommendations on the models
+
+A primary business goal is to approve loans for as many deserving applicants as possible (minimize false negatives), while maintaining reasonable control over the number of wrongly approved loans (minimize false positives).Given the goal of loan approval prediction, the business objective is likely to prioritize approving loans for suitable applicants while minimizing financial risk.
+
+1. Objective: Prioritize Loan Approvals
+
+Random Forest strikes a good balance between precision (90%) and recall (77%) for loan approvals, ensuring that it doesn't      miss many potential loan approvals while still keeping false approvals (false positives) under control.
+High Accuracy: With an accuracy of 92.81%, it performs reliably across the board.
+Specificity: With a 97% specificity, it effectively minimizes false positives, ensuring fewer loans are wrongly approved.Ideal for businesses aiming to prioritize loan approvals without overly compromising on quality.
+   
+2. Objective: Minimize Financial Risk (Reduce False Approvals)
+
+Gradient Boosting has High Specificity (97%): Like Random Forest, Gradient Boosting has excellent specificity, meaning fewer false positives and ensuring the model is cautious about approving loans.
+Good Precision (87%): While its precision is slightly lower than Random Forest, it still provides strong performance in correctly identifying loan approvals.
+
+Lower Recall for Class 1: If minimizing false approvals is more important than identifying every single potential loan-approved applicant, Gradient Boosting is an excellent choice due to its conservative approach.Ideal for businesses that want to ensure a higher level of certainty in loan approvals, even if it means missing some approvals.
+
+3. Objective: Simplicity and Ease of Use
+
+If the business wants a simpler, less computationally expensive model, KNN can be considered.It is relevant in smaller businesses, startups where interpretability and simplicity are paramount.
+
+KNN is easy to understand and doesn’t require complex tuning or heavy computational resources.
+Moderate Precision (81%): KNN is decent in precision but struggles with lower recall (70%), meaning that it misses a significant number of loan approvals.
+Accuracy: With 89.71% accuracy, KNN works reasonably well, but its lower recall for loan approvals makes it less ideal for scenarios where maximizing loan approvals is important.
+Ideal for businesses with resource constraints and a need for simplicity, but less ideal for businesses where accuracy and minimizing missed opportunities are critical.
+
+# REFERENCES
+
+1. W3schools https://www.w3schools.com/
+
+2. Datacamp https://www.datacamp.com/
+
+3. Moringa School Instructure Canvas(you have to be a student at Moringa to access this)
+
+4. YouTube tutorials https://www.youtube.com/watch?v=XmSlFPDjKdc&t=905s
+
+5. Github Repositories https://github.com/
+
+6. kaggle datasets and kaggle code https://www.kaggle.com/
+
+7. Python Documentations https://docs.python.org/3/
+
+8. Chatgpt 4.0 https://chatgpt.com/ (when all else fail get this tool to debug)
+
 
 
