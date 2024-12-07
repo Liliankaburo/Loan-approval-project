@@ -81,6 +81,14 @@ The Loan approval dataset has 45,000 rows and 13 columns some of which are numer
 ![image](https://github.com/user-attachments/assets/ac4adff8-c397-4f0c-9f00-c69a2dd97da1)
 
 
+# DATA PREPROCESSING
+
+1. Handling categorical Variables
+2. Handling high correlation
+3. Feature scaling
+4. Data splitting
+
+
 
 
 
