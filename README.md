@@ -72,11 +72,11 @@ The Loan approval dataset has 45,000 rows and 13 columns some of which are numer
 
 ![image](https://github.com/user-attachments/assets/3e4ad18d-d262-480f-be54-72afdbb4114d)
 
-## Investigating how loans were awarded across different genders
+## 3. Investigating how loans were awarded across different genders
 
 ![image](https://github.com/user-attachments/assets/3c4309f4-cb50-4c79-9ff3-6dee7fee412e)
 
-## Investigating if personal education Determines the loan status
+## 4.  Investigating if personal education Determines the loan status
 
 ![image](https://github.com/user-attachments/assets/ac4adff8-c397-4f0c-9f00-c69a2dd97da1)
 
@@ -88,7 +88,14 @@ The Loan approval dataset has 45,000 rows and 13 columns some of which are numer
 3. Feature scaling
 4. Data splitting
 
+# BUILDING THE MODELS
 
+## Models built
+1. Logistic Regression model
+2. decision Tree
+3. RandomForestClassifier
+4. KNearestNeighbours
+5. GradientBoosting Model
 
 
 
