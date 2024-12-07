@@ -62,3 +62,25 @@ we are going to use this dataset to;
 
 The Loan approval dataset has 45,000 rows and 13 columns some of which are numerical and others categorical. We are going to use the 'loan_status' column as the target(y-variable) and the rest as features (exogenous variables) in our model.
 
+# EXPLORATORY DATA ANALYSIS
+
+## 1. Investigating the correlation of our features in the dataset
+
+![image](https://github.com/user-attachments/assets/9bee27a1-b71f-4093-bdc5-81cfb541ea35)
+
+## 2. Distribution of loan_status (target variable)
+
+![image](https://github.com/user-attachments/assets/3e4ad18d-d262-480f-be54-72afdbb4114d)
+
+## Investigating how loans were awarded across different genders
+
+![image](https://github.com/user-attachments/assets/3c4309f4-cb50-4c79-9ff3-6dee7fee412e)
+
+## Investigating if personal education Determines the loan status
+
+![image](https://github.com/user-attachments/assets/ac4adff8-c397-4f0c-9f00-c69a2dd97da1)
+
+
+
+
+
