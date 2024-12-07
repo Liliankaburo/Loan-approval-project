@@ -58,3 +58,7 @@ we are going to use this dataset to;
 
 4. We are going to use python pandas,numpy and other python libraries to explore and understand the data more.
 
+## Data Description
+
+The Loan approval dataset has 45,000 rows and 13 columns some of which are numerical and others categorical. We are going to use the 'loan_status' column as the target(y-variable) and the rest as features (exogenous variables) in our model.
+
