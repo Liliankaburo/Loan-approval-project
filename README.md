@@ -29,3 +29,32 @@ The Bank Loan Approval Classification Project is designed to develop a machine l
 
 5. External Regulators (government agencies)
 
+## Business Problem
+
+1. What is the main challenge of this project?---How can we create a predictive model to classify loan applications as either approved or denied?
+
+2. What key factors should the model take into account when deciding on loan approvals?---How can we include various factors such as income, credit score, loan amount, and employment status into the model to mirror the bank’s decision-making process?
+
+3. What data do we have available for training the model?---What features of the loan applicants (e.g., age, education level, credit history) are present in the dataset, and how do they correlate with loan approval status (approved or denied)?
+
+4. How can machine learning techniques be applied to address this issue?---How can we utilize machine learning methods to develop a model that accurately predicts whether a new loan application will be approved or denied?
+
+5. What is the main objective of this project?---How can we automate the loan approval decision-making process by developing a predictive model, and what level of accuracy is necessary for practical implementation?
+
+
+# DATA UNDERSTANDING
+
+## Data Source
+
+The Dataset we are using is obtained from https://www.kaggle.com/datasets/. The Bank loan approval dataset contains information about the loan Applicants that will be used to determine if they get approved for a new loan or not.
+
+we are going to use this dataset to;
+
+1. Develop predictive models to classify loan applications as approved or denied.
+
+2. Analyze key factors that influence loan approval decisions.
+
+3. Improve the efficiency and accuracy of loan approval processes through data-driven insights.
+
+4. We are going to use python pandas,numpy and other python libraries to explore and understand the data more.
+
